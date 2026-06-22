@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>第1章 問題</title>
+<style>
+.question { margin-bottom:20px; padding:10px; border:1px solid #ccc; }
+.answer { display:none; color:green; font-weight:bold; }
+button { margin-top:5px; }
+</style>
+<script>
+function showAnswer(id){
+  document.getElementById(id).style.display = "block";
+}
+</script>
+</head>
+<body>
+
+<h2>第1章 IT導入士の業務内容（全10問）</h2>
+
+<div class="question">
+<p>Q1. IT導入士の役割として最も適切なものはどれか？</p>
+<label><input type="radio"> 外部コンサルに任せる</label><br>
+<label><input type="radio"> PCの修理だけ行う</label><br>
+<label><input type="radio"> 社内業務を理解しIT導入を推進する</label><br>
+<label><input type="radio"> 売上管理のみ行う</label><br>
+<button onclick="showAnswer('a1')">答え</button>
+<p id="a1" class="answer">正解：社内業務を理解しIT導入を推進する</p>
+</div>
+
+<div class="question">
+<p>Q2. IT導入士はどの立場の人材か？</p>
+<label><input type="radio"> 外部監査員</label><br>
+<label><input type="radio"> 社内リーダー</label><br>
+<label><input type="radio"> 顧客担当</label><br>
+<label><input type="radio"> 会計士</label><br>
+<button onclick="showAnswer('a2')">答え</button>
+<p id="a2" class="answer">正解：社内リーダー</p>
+</div>
+
+<div class="question">
+<p>Q3. DXとは何を意味するか？</p>
+<label><input type="radio"> IT化のみ</label><br>
+<label><input type="radio"> 業務効率だけ向上</label><br>
+<label><input type="radio"> ビジネスの変革</label><br>
+<label><input type="radio"> 機械化</label><br>
+<button onclick="showAnswer('a3')">答え</button>
+<p id="a3" class="answer">正解：ビジネスの変革</p>
+</div>
+
+<div class="question">
+<p>Q4. DXの最終目的は何か？</p>
+<label><input type="radio"> ITツール導入</label><br>
+<label><input type="radio"> コスト削減のみ</label><br>
+<label><input type="radio"> 売上・利益の向上</label><br>
+<label><input type="radio"> 紙の削減</label><br>
+<button onclick="showAnswer('a4')">答え</button>
+<p id="a4" class="answer">正解：売上・利益の向上</p>
+</div>
+
+<div class="question">
+<p>Q5. ステップ1は何か？</p>
+<label><input type="radio"> プロセス改善</label><br>
+<label><input type="radio"> アナログ業務のデジタル化</label><br>
+<label><input type="radio"> AI導入</label><br>
+<label><input type="radio"> DX完了</label><br>
+<button onclick="showAnswer('a5')">答え</button>
+<p id="a5" class="answer">正解：アナログ業務のデジタル化</p>
+</div>
+
+<div class="question">
+<p>Q6. IT導入士が担うべき重要な役割はどれか？</p>
+<label><input type="radio"> 反対意見を排除する</label><br>
+<label><input type="radio"> 社内の意識改革を行う</label><br>
+<label><input type="radio"> 経営を無視する</label><br>
+<label><input type="radio"> ITを停止する</label><br>
+<button onclick="showAnswer('a6')">答え</button>
+<p id="a6" class="answer">正解：社内の意識改革を行う</p>
+</div>
+
+<div class="question">
+<p>Q7. IT導入士資格の有効期限は？</p>
+<label><input type="radio"> 永久</label><br>
+<label><input type="radio"> 1年</label><br>
+<label><input type="radio"> 5年</label><br>
+<label><input type="radio"> 無期限</label><br>
+<button onclick="showAnswer('a7')">答え</button>
+<p id="a7" class="answer">正解：1年</p>
+</div>
+
+<div class="question">
+<p>Q8. デジタル化のステップで「余裕の活用」とは何か？</p>
+<label><input type="radio"> 人員削減</label><br>
+<label><input type="radio"> 創造的業務に使う</label><br>
+<label><input type="radio"> 何もしない</label><br>
+<label><input type="radio"> データ削除</label><br>
+<button onclick="showAnswer('a8')">答え</button>
+<p id="a8" class="answer">正解：創造的業務に使う</p>
+</div>
+
+<div class="question">
+<p>Q9. IT導入の目的として適切でないものは？</p>
+<label><input type="radio"> 業務効率化</label><br>
+<label><input type="radio"> 利益向上</label><br>
+<label><input type="radio"> 仕事の属人化</label><br>
+<label><input type="radio"> DX推進</label><br>
+<button onclick="showAnswer('a9')">答え</button>
+<p id="a9" class="answer">正解：仕事の属人化</p>
+</div>
+
+<div class="question">
+<p>Q10. IT導入士に最も求められる姿勢は？</p>
+<label><input type="radio"> 技術だけ重視</label><br>
+<label><input type="radio"> 現場理解と改善</label><br>
+<label><input type="radio"> 管理のみ</label><br>
+<label><input type="radio"> 指示待ち</label><br>
+<button onclick="showAnswer('a10')">答え</button>
+<p id="a10" class="answer">正解：現場理解と改善</p>
+</div>
+
+</body>
+</html>
